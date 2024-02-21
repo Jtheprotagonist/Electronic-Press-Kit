@@ -1,0 +1,406 @@
+/* styles.css */
+
+/* Header styling */
+header {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display links horizontally */
+    margin-right: 20px; /* Spacing between links */
+}
+
+nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Padding */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+section h2 {
+    color: #333; /* Section title color */
+}
+
+/* Contact section styling */
+.contact p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+.contact ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 5px; /* Spacing between social media links */
+}
+
+.contact ul li a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Photo gallery styling */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted for auto-fill */
+    gap: 10px; /* Spacing between images */
+}
+
+
+/* Header styling */
+header {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display links horizontally */
+    margin-right: 20px; /* Spacing between links */
+}
+
+nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Padding */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+section h2 {
+    color: #333; /* Section title color */
+}
+
+/* Contact section styling */
+.contact p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+.contact ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 5px; /* Spacing between social media links */
+}
+
+.contact ul li a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Photo gallery styling */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 10px; /* Spacing between images */
+}
+
+.photo-gallery img {
+    width: 100%; /* Set the width to 100% */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the entire image is visible */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+
+.photo-gallery img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+
+
+/* Music video section styling */
+#videos {
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#videos h2 {
+    color: #333; /* Section title color */
+    margin-bottom: 10px; /* Spacing below section title */
+}
+
+#videos ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+}
+
+#videos li {
+    margin-bottom: 10px; /* Spacing between video links */
+}
+
+#videos li a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+#videos li a:hover {
+    color: #0056b3; /* Link color on hover */
+}
+
+/* Biography section styling */
+#bio {
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#bio h2 {
+    color: #333; /* Section title color */
+    margin-bottom: 10px; /* Spacing below section title */
+}
+
+#bio p {
+    color: #555; /* Text color */
+    line-height: 1.5; /* Line height */
+}
+
+/* Press Releases and Coverage section styling */
+.press-releases {
+    padding: 20px; /* Padding */
+}
+
+.press-releases h2 {
+    color: #333; /* Section title color */
+    margin-bottom: 10px; /* Spacing below section title */
+}
+
+.press-releases ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.press-releases li {
+    margin-bottom: 10px; /* Spacing between links */
+}
+
+.press-releases li a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.press-releases li a:hover {
+    color: #0056b3; /* Link color on hover */
+}
+
+/* Contact section styling */
+.contact {
+    padding: 20px; /* Padding */
+}
+
+.contact h2 {
+    color: #333; /* Section title color */
+    margin-bottom: 10px; /* Spacing below section title */
+}
+
+.contact p {
+    color: #555; /* Text color */
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+.contact ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.contact ul li {
+    margin-bottom: 5px; /* Spacing between social media links */
+}
+
+.contact ul li a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact ul li a:hover {
+    color: #0056b3; /* Link color on hover */
+}
+
+/* styles.css */
+
+/* Animated background styling */
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background is behind other content */
+    overflow-y: auto; /* or overflow-y: scroll; */
+    /* Other styles */
+
+    /* Gradient animation */
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Animation keyframes */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Start position */
+    }
+    50% {
+        background-position: 100% 50%; /* Mid position */
+    }
+    100% {
+        background-position: 0% 50%; /* End position */
+    }
+}
+
+.white-background {
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Adjust the CSS to target the ul within #videos section */
+#videos ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Add some left padding for better alignment */
+}
+
+#videos ul li {
+    margin-bottom: 10px; /* Add some margin between each list item */
+}
+
+/* Add this CSS to your styles.css file */
+
+/* Social media links styling */
+.contact ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Add some left padding for better alignment */
+}
+
+.contact ul li {
+    margin-bottom: 5px; /* Add some margin between each list item */
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smartphone screens */
+
+    /* Example: Adjust the header size */
+    header {
+        padding: 10px; /* Adjust padding */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    /* Example: Adjust main content padding */
+    main {
+        padding: 10px; /* Adjust padding */
+    }
+
+    /* Example: Adjust photo gallery grid */
+    .photo-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust column width */
+        gap: 5px; /* Adjust spacing */
+    }
+
+    /* Example: Adjust font sizes for smaller screens */
+    section h2 {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    /* Add more adjustments as needed */
+}
+
+/* Link styling */
+a {
+    color: #007bff; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+a:hover {
+    color: #0056b3; /* Link color on hover */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal:target {
+    display: block;
+}
+
+.modal video {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.close:hover {
+    color: #ccc;
+}
